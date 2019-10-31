@@ -11,7 +11,6 @@ function App() {
     .then(res => {
       setData(res.data)
     })
-  }, []);
 
   return (
     <div className="App">
